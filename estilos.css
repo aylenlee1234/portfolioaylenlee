@@ -386,3 +386,144 @@ body {
     padding-top: 8px;
 }
 
+@media (max-width: 873px) {
+    html {
+        font-size: 40%;
+    }
+
+    .home .home-img {
+        display: none;
+    }   
+}
+
+@media (max-width: 873px) {
+    .home .home-content {
+        max-width: 50rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background-color: #1f242d;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    }
+
+    .navbar a {
+        font-size: 1.7rem;
+    }
+
+    .navbar a.active,
+    .navbar a:hover {
+        color: #0ef;
+    }
+
+    .home {
+        margin-top: 150px;
+        padding: 0 3% 23rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-content .social-media a {
+        margin: 2.5rem .75rem 3rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .about-content h3 {
+        font-size: 3rem;
+    }
+
+    .about-content p {
+        font-size: 2.1rem;
+    }
+
+    .about-img img {
+       display: none;
+    }
+
+    .conocimientos h2,
+    .estudios {
+        margin-bottom: 3rem;
+    }
+
+    .estudios .estudios-row {
+        text-align: center;
+    }
+
+    .estudios .estudios-box {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .estudios .estudios2-box {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .estudios2-box .estudios2-content::before {
+        margin-left: -10px;
+    }
+
+    .estudios-box .estudios-content::before {
+        margin-left: -10px;
+    }
+
+    .estudios-content .content h3 {
+        font-size: 18px;
+    }
+
+    .estudios2-content .content h3 {
+        font-size: 18px;
+    }
+
+    .estudios-content .content .year {
+        font-size: 20px;
+    }
+
+    .estudios2-content .content .year {
+        font-size: 20px;
+    }
+
+    .estudios-content .content p {
+        font-size: 13px;
+    }
+
+    .estudios2-content .content p {
+        font-size: 13px;
+    }
+
+    .estudios-column .title {
+        font-size: 50px; 
+    }
+
+    .conocimientos-box p {
+        font-size: 13px;
+    }
+
+    .conocimientos-box h3 {
+        font-size: 20px;
+    }
+
+    .conocimientos-box {
+        max-width: 100%;
+    }
+}
