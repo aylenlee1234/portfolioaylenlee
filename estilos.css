@@ -527,3 +527,53 @@ body {
         max-width: 100%;
     }
 }
+  
+h5 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #prevBtn {
+    left: 10px;
+  }
+  
+  #nextBtn {
+    right: 10px;
+  }
+  
+  
